@@ -1,38 +1,101 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif, serif, monospace;
+  background-image: linear-gradient( 135deg, #849bfa 10%, #123597 100%);
+  min-width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
   text-align: center;
+  border: 2px solid white;
+  height: auto;
+  width: 19rem;
+  border-radius: 10px;
+  padding: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-area {
+  border-radius: 10px;
+  padding: 0.4rem;
+  max-width: 90%;
+  width: 90%;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.76);
+  outline: none;
+  border: none;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.502);
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-area:focus{
+  transform: translate(00px, 2px);
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.423);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+::placeholder{
+  color: rgba(0, 0, 0, 0.76);
+}
+
+button {
+  margin-top: 1rem;
+  outline: none;
+  color: rgba(212, 212, 212, 0.795);
+  padding: 0.45rem;
+  border-radius: 0.55rem;
+  border: none;
+  color: rgba(0, 0, 0, 0.76);
+  font-size: 19px;
+  font-weight: 600;
+  width: 90%;
+  cursor: pointer;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.502);
+  transition: all 0.3s ease;
+}
+
+button:hover{
+  transform: translate(00px, 2px);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.423);
+  transition: all 0.3s ease-in;
+}
+
+img{
+  width: 90%;
+  margin-bottom: 1rem;
+}
+
+ul li{
+  list-style: none;
+  margin: 1.2rem;
+}
+
+.mainBox{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  gap: 2rem;
+}
+
+.info-icon{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.alert{
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
 }

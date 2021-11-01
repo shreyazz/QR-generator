@@ -1,4 +1,4 @@
-# QR Generator ![qr-logo](./favicon.png)
+# [QR Generator](https://qr-generator-nine.vercel.app/) ![qr-logo](./favicon.png)
 ----
 This is a website which creates QR Code for any Emails, Phone Numbers, URLs or normal texts. 
 
@@ -17,3 +17,8 @@ This is a website which creates QR Code for any Emails, Phone Numbers, URLs or n
               click on 'download image'.
 - <b> Download QR on PC/MAC: </b> Right Click on the QR Code and
               click on 'save image as'.
+
+### QR Code of the Website
+![qr-code-of-the-website](./qr-of-the-website.png)
+<br>
+[Link to the website](https://qr-generator-nine.vercel.app/)

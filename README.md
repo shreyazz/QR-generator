@@ -1,6 +1,6 @@
 # [QR Generator](https://qr-generator-nine.vercel.app/) ![qr-logo](./favicon.png)
 ----
-This is a website which creates QR Code for any Emails, Phone Numbers, URLs or normal texts. 
+This is a website that creates QR codes for any Emails, Phone Numbers, URLs or normal texts.
 
 ### What tech did I use to make this ⚙️?
 - [React JS](https://reactjs.org/)
